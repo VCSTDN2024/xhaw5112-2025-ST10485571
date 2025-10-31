@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empowering the Nation | Official Site</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <style>
+        .course-card {
+            /* Ensure cards can grow and content aligns */
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+        .course-details {
+            font-size: 15px;
+            line-height: 1.5;
+            color: #325433;
+            margin-top: 10px; /* Add some space from the title */
+        }
+        .course-about {
+            margin-bottom: 15px; /* Space between about and lessons */
+        }
+        .lessons-title {
+            font-size: 16px;
+            font-weight: 700;
+            color: #325433;
+            margin-bottom: 8px;
+            border-top: 1px solid rgba(50, 84, 51, 0.2); /* Subtle separator */
+            padding-top: 10px;
+        }
+        .lessons-list {
+            padding-left: 20px; /* Indent the list */
+            list-style-type: disc; /* Use standard bullets */
+            color: #325433; /* Ensure list text has color */
+        }
+        .lessons-list li {
+            margin-bottom: 5px; /* Space between list items */
+        }
+        .lessons-list li strong {
+            font-weight: 600; /* Make 'Lesson 1:' bold */
+            color: #325433;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="page-header">
+        <a href="#home" class="logo"><img src="Images/ETNLOGO.PNG" alt="Empowering The Nation Logo"></a>
+        
+        <nav class="navbar">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#courses" class="nav-link">Courses</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#locations" class="nav-link">Locations</a> <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+        <a href="#signin" class="btn-primary">Sign In</a>
+        
+        <div class='bx bx-menu' id="menu-icon"></div>
+    </header>
+    
+    <div class="mobile-menu-container" id="mobile-menu">
+        <nav class="mobile-nav">
+             <a href="#home" class="mobile-nav-link">Home</a>
+             <a href="#courses" class="mobile-nav-link">Courses</a>
+             <a href="#about" class="mobile-nav-link">About</a>
+             <a href="#locations" class="mobile-nav-link">Locations</a> <a href="#contact" class="mobile-nav-link">Contact</a>
+             <a href="#signin" class="mobile-nav-link sign-in">Sign In</a>
+        </nav>
+    </div>
+
+    <main>
+        <section id="home" class="page-section">
+            <div class="section-container home-container">
+                <div class="home-text">
+                    <img src="Images/ETNLOGO.PNG" alt="Empowering the Nation Logo" class="logo-img">
+                    <h1>Empowering the Nation</h1>
+                    <p>
+                        Precious Radebe, founder of Empowering the Nation, needs a user-friendly web page and mobile app to showcase her training services for domestic workers and gardeners. The platform must provide a consistent experience across both devices, with clear navigation, course summaries, and contact options.
+                    </p>
+                </div>
+                </div>
+        </section>
+
+        <section id="courses" class="page-section alt-bg">
+            <div class="section-container">
+                <h2 class="section-title">Empowering Courses</h2>
+                
+                <h3 class="subsection-title">Popular Six-Week Courses</h3>
+                <div class="card-grid">
+                    <!-- Course Card 1: First Aid Basics -->
+                    <div class="course-card">
+                        <img src="Images/pexels-olly-3760275.jpg" alt="First Aid Course">
+                        <h4> First Aid Basics</h4>
+                        <div class="course-details">
+                            <p class="course-about">
+                                This First Aid Basic course will introduce you to the fundamentals and practical skills required to be confident in this field. Practical activities and assessments included.
+                            </p>
+                            <h5 class="lessons-title">Lessons</h5>
+                            <ul class="lessons-list">
+                                <li><strong>Lesson 1:</strong> Emergency response and CPR basics — how to assess a scene, call for help and perform CPR.</li>
+                                <li><strong>Lesson 2:</strong> Wound care & bandaging — cleaning wounds, dressing techniques and infection prevention.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Course Card 2: Organic Gardening -->
+                    <div class="course-card">
+                         <img src="Images/pexels-fotios-photos-1301856.jpg" alt="Gardening Course">
+                        <h4>Organic Gardening</h4>
+                        <div class="course-details">
+                            <p class="course-about">
+                                This Organic Gardening course will introduce you to the fundamentals and practical skills required to be confident in this field. Practical activities and assessments included.
+                            </p>
+                            <h5 class="lessons-title">Lessons</h5>
+                            <ul class="lessons-list">
+                                <li><strong>Lesson 1:</strong> Soil health & composting — understand soil structure, compost making, and natural fertilizers.</li>
+                                <li><strong>Lesson 2:</strong> Planting & pest control — seasonal planting, companion planting and eco-friendly pest management.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Course Card 3: Advanced Cooking -->
+                     <div class="course-card">
+                         <img src="Images/pexels-mvdheuvel-2284166.jpg" alt="Cooking Course">
+                        <h4> Advanced Cooking </h4>
+                        <div class="course-details">
+                            <p class="course-about">
+                                This Advanced Cooking course will introduce you to the fundamentals and practical skills required to be confident in this field. Practical activities and assessments included.
+                            </p>
+                            <h5 class="lessons-title">Lessons</h5>
+                            <ul class="lessons-list">
+                                <li><strong>Lesson 1:</strong> Knife skills & ingredient prep — learn safe knife handling, chopping, and mise en place techniques used in professional kitchens.</li>
+                                <li><strong>Lesson 2:</strong> Sauces & flavour building — basic mother sauces, seasoning, and techniques to balance flavours.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <h3 class="subsection-title">Popular Short Courses</h3>
+                <div class="card-grid">
+                    <!-- Course Card 4: Pediatric First Aid -->
+                    <div class="course-card">
+                         <img src="Images/pexels-hannah-barata-776560167-19751878.jpg" alt="Pediatric First Aid">
+                        <h4>Pediatric First Aid</h4>
+                        <div class="course-details">
+                            <p class="course-about">
+                                This Pediatric First Aid course will introduce you to the fundamentals and practical skills required to be confident in this field, focusing on child-specific care. Practical activities and assessments included.
+                            </p>
+                            <h5 class="lessons-title">Lessons</h5>
+                            <ul class="lessons-list">
+                                <li><strong>Lesson 1:</strong> Child & infant CPR — learn the specific techniques for performing CPR and using an AED on children and infants.</li>
+                                <li><strong>Lesson 2:</strong> Common childhood emergencies — managing choking, allergic reactions, fevers, and injuries common to young children.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Course Card 5: Basic Sewing -->
+                     <div class="course-card">
+                         <img src="Images/pexels-karolina-grabowska-6275968.jpg" alt="Sewing">
+                        <h4>Basic Sewing</h4>
+                        <div class="course-details">
+                            <p class="course-about">
+                                This Basic Sewing course will introduce you to the fundamentals and practical skills required to be confident in this field. Practical activities and assessments included.
+                            </p>
+                            <h5 class="lessons-title">Lessons</h5>
+                            <ul class="lessons-list">
+                                <li><strong>Lesson 1:</strong> Machine basics & stitching — how to thread a sewing machine, adjust tension, and sew straight, curved, and corner stitches.</li>
+                                <li><strong>Lesson 2:</strong> Simple repairs & projects — learn to mend seams, sew on buttons, and complete a simple project like a pillowcase or tote bag.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Course Card 6: Landscaping Design -->
+                     <div class="course-card">
+                         <img src="Images/pexels-pixabay-158028.jpg" alt="Landscaping">
+                        <h4>Landscaping Design</h4>
+                        <div class="course-details">
+                            <p class="course-about">
+                                This Landscaping course will introduce you to the fundamentals and practical skills required to be confident in this field. Practical activities and assessments included.
+                            </p>
+                            <h5 class="lessons-title">Lessons</h5>
+                            <ul class="lessons-list">
+                                <li><strong>Lesson 1:</strong> Garden design basics — space planning, plant selection, and focal points.</li>
+                                <li><strong>Lesson 2:</strong> Hardscaping & maintenance — basic pathways, edging, and seasonal maintenance tips.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="page-section">
+            <div class="section-container about-container">
+                <div class="about-text">
+                    <h2 class="section-title">About Us</h2>
+                    <div>
+                        <h3>What We Do?</h3>
+                        <p>We provide nutritious meals to elderly and homebound individuals who may not be able to shop for or prepare their own food.</p>
+                    </div>
+                    <div>
+                        <h3>Who Are We?</h3>
+                        <p>A registered Non-Profit Organisation (NPO) that delivers balanced meals and provides community support to vulnerable groups.</p>
+                    </div>
+                     <div>
+                        <h3>Our Impact</h3>
+                        <p>Preventing isolation, improving health, and reducing hospital admissions for seniors and vulnerable populations.</p>
+                    </div>
+                </div>
+                <div class="sponsors-card">
+                    <h3>Sponsors & Investors</h3>
+                    <div class="sponsors-grid">
+                        <img src="Images/Ackermans_idm_WYDrh0_0.png" alt="Ackermans Logo">
+                        <img src="Images/PEP2021.jpg" alt="PEP Logo">
+                        <img src="Images/idAHQDwcEZ_logos.jpeg" alt="PNP Logo">
+                        <img src="Images/idLtbPlQjk_1757572478581.jpeg" alt="Mr Price Logo">
+                         <img src="Images/Woolworths SA_idRYJEOZuI_0.svg" alt="Woolworths Logo">
+                         <img src="Images/SPAR_idkNtsGCy2_1.png" alt="SPAR Logo">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="fees" class="page-section alt-bg">
+            <div class="section-container form-container">
+                 <h2 class="section-title">Calculate Fees</h2>
+                 <div class="form-card">
+                    <form id="fee-calculator-form">
+                        <div class="form-grid">
+                            <input type="text" placeholder="Name">
+                            <input type="email" placeholder="Email">
+                        </div>
+                         <input type="tel" placeholder="Phone Number">
+                        
+                        <h4>Select Your Courses:</h4>
+                        <div class="checkbox-group">
+                            <label><input type="checkbox" class="course-checkbox" value="1500"> Sewing - R1500</label>
+                            <label><input type="checkbox" class="course-checkbox" value="2500"> Landscaping - R2500</label>
+                            <label><input type="checkbox" class="course-checkbox" value="1750"> Cooking - R1750</label>
+                            <label><input type="checkbox" class="course-checkbox" value="1200"> First Aid - R1200</label>
+                        </div>
+
+                        <button type="submit" class="btn-primary form-btn">Calculate Total</button>
+                    </form>
+                     <div id="fee-results" class="fee-results-box">
+                        <div class="fee-row">
+                            <p>Subtotal:</p>
+                            <p id="subtotal">R0.00</p>
+                        </div>
+                        <div class="fee-row discount-row">
+                            <p>Group Discount (10%):</p>
+                            <p id="discount">R0.00</p>
+                        </div>
+                        <div class="fee-row">
+                            <p>VAT (15%):</p>
+                            <p id="vat">R0.00</p>
+                        </div>
+                        <hr>
+                        <div class="fee-row total-row">
+                            <p>TOTAL:</p>
+                            <p id="total">R0.00</p>
+                        </div>
+                        <button class="btn-secondary form-btn">Request a Booking</button>
+                     </div>
+                 </div>
+            </div>
+        </section>
+
+        <section id="locations" class="page-section">
+            <div class="section-container">
+            <h2 class="section-title">Our Locations</h2>
+                <div class="locations-grid">
+                    <div class="location-card">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.606977823826!2d28.15943487541243!3d-26.14446897711208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9513835016e76b%3A0x7cb5325b8d29b19e!2s93%20Lucky%20Bean%20St%2C%20Edenglen%2C%20Edenvale%2C%201609!5e0!3m2!1sen!2sza!4v1727000000000!5m2!1sen!2sza" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <h4>Main Branch - Edenvale</h4>
+                        <p>93 Lucky Bean Street, Edenglen, Edenvale</p>
+                    </div>
+                    <div class="location-card">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3584.942171249216!2d28.005113975408796!3d-26.03534577717831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95768565570535%3A0x8673359c40217a94!2sThe%20Secret%20Tea%20Garden!5e0!3m2!1sen!2sza!4v1727000000001!5m2!1sen!2sza" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <h4>Fourways Branch</h4>
+                        <p>16B Norscot Slopes, Fourways, Sandton, 2055</p>
+                    </div>
+                    <div class="location-card">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3582.4789547513303!2d28.05140667541147!3d-26.11603587712852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9573b22c7a36c9%3A0x4649727653c3065!2sSandton%20Convention%20Centre!5e0!3m2!1sen!2sza!4v1727000000002!5m2!1sen!2sza" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <h4>Sandton Office</h4>
+                        <p>2 Maude St, Sandown, Sandton, 2196</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="signin" class="page-section alt-bg">
+            <div class="section-container form-container">
+                <div class="form-card">
+                    <h2 class="section-title">Sign In</h2>
+                    <form>
+                        <label for="email">Email address</label>
+                        <input type="email" id="email" required>
+                        
+                        <label for="password">Password</label>
+                        <input type="password" id="password" required>
+                        
+                        <button type="submit" class="btn-primary form-btn">Sign In</button>
+                        <p class="form-footer-text">
+                            <a href="#">Create Account</a>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact" class="page-footer">
+        <div class="section-container footer-container">
+            <div class="footer-col">
+                <h3>Empowering the Nation</h3>
+                 <p>Training & development for a brighter future.</p>
+            </div>
+             <div class="footer-col">
+                <h3>Contact Us</h3>
+                <address>
+                    <h4>Main Address:</h4>
+                    <p> Lucky Bean Street, Edenglen, Edenvale</p>
+                <br>
+                    <p>Tel: <a href="tel:+27115024231">+27 11 502 4231</a></p>
+                    <p>Email: <a href="mailto:empoweringthenation@gmail.com">empoweringthenation@gmail.com</a></p>
+                </address>
+            </div>
+            <div class="footer-col">
+                 <h3>Follow Us</h3>
+                 <div class="social-icons">
+                    <a href="https://www.facebook.com/share/1C2vm1ZRrd/"><i class='bx bxl-facebook-square'></i></a>
+                    <a href="https://www.instagram.com/empoweringthenationcourses?igsh=MWhxZjI1MzFkZDNpdw%3D%3D&utm_source=qr"><i class='bx bxl-instagram-alt'></i></a>
+                    <a href="https://x.com/etncourses?s=21&t=7s-j4D3x6XyktxuAvetWog"><i class='bx bxl-twitter'></i></a>
+                 </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 Empowering the Nation. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
